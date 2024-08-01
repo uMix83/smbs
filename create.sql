@@ -1,6 +1,8 @@
+CREATE SEQUENCE smbs_seq START 10 INCREMENT BY 10;
+
 CREATE TABLE
   IF NOT EXISTS moex (
-    id SERIAL PRIMARY KEY,
+    id INT DEFAULT nextval ('smbs_seq') PRIMARY KEY,
     ticker VARCHAR(5),
     per VARCHAR(1),
     date INT,

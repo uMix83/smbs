@@ -1,9 +1,9 @@
 # smbs
-Создаём образы
+1. Создаём образы
 
 ```docker-compose build```
 
-Создаём и запускаем контейнеры
+2. Создаём и запускаем контейнеры
 
 ```docker-compose up```
 
@@ -13,4 +13,5 @@
 http://localhost:5432
 DB: smbs
 USER: user
-PASSWORD: 12345```
+PASSWORD: 12345
+```
